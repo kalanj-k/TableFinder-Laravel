@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: #6a11cb;
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    color: white;
+}
+$divTransparent :rgba(0, 5, 0, 0.7);
+
+ul{
+    list-style: none;
+}
+th{
+    vertical-align: middle;
+}
+a{
+    color: white;
+&:hover{
+     color: white;
+ }
+}
+#homeImg{
+    border-radius: 20px;
+}
+.profileAuthor{
+    height: 300px;
+    background-color: $divTransparent;
+    border-radius: 20px;
+}
+.slikaAuthor{
+    border-radius: 20px;
+    height: 250px;
+}
+.feedbackBad{
+    display: none;
+}
+.profilSlika{
+    border-radius: 20px;
+    max-height: 180px;
+}
+.profilePersonal{
+    border-radius: 20px;
+}
+.postSlika{
+    width: 400px;
+    border-radius: 20px;
+}
+.postAu{
+    background-color: $divTransparent;
+    height: 110px;
+    border-radius: 20px 20px 20px 20px;
+}
+.postIco{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.contxt{
+    height: 250px !important;
+    resize: none;
+}
+.commentBorder{
+    border-top: 1px solid white;
+}
+.txtComment{
+    height: 100px !important;
+    resize: none;
+}
+.infoAcc{
+    font-weight: 600;
+}
+.infoBorder{
+    border-bottom: 1px solid white;
+}
+.postBorder{
+    border: 1px solid white;
+}
+.accAbout{
+    max-height: 200px;
+}
+.testdiv{
+    min-height: 450px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.pSlika{
+    max-height: 250px;
+    border-radius: 20px;
+}
+.tableActions{
+    border-top: 1px solid white;
+}
+.paginacija{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-top: 3px solid white;
+}
+.invalid-form{
+    color: red;
+}
+#adminbckg{
+    background-color: #FAF9F6 !important;
+    color: black;
+}
+#adminLeft{
+    height: inherit;
+}
+hr{
+    border-top: 1px solid white !important;
+}
+h5{
+    text-decoration: underline;
+}
+.carouselImages{
+    border-radius: 20px;
+}
+.socials{
+    font-size: 30px;
+}
+.adminTableImg{
+    width: 150px;
+}
+.adminLinks{
+    color: black;
+}
+////////////////// admin css
+
